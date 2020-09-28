@@ -227,6 +227,107 @@ li {
     background-color: wheat;
 }
 
+.inline p,
+.float-right {
+    display: inline-block;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-right li {
+    margin-right: 10px;
+}
+
+.float-right li:hover {
+    background-color: rgb(255, 174, 24);
+    color: black;
+}
+
+.border-down {
+    border-bottom: solid 1px;
+    border-color: rgb(250, 201, 110);
+}
+
+.inline h1 {
+    margin-top: 20px;
+    float: left;
+    width: 20%;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.inline nav,
+.serach-box {
+    float: left;
+    width: 35%;
+}
+
+.serach-box {
+    float: right;
+}
+
+.serach-box form {
+    margin-top: 20px;
+    float: right;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li:hover {
+    background-color: rgb(255, 174, 24);
+    color: black;
+}
+
+.inline::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.inline nav li {
+    margin: 10px;
+    padding: 10px;
+}
+
+.bg-lightblue {
+    background-color: rgb(196, 220, 228);
+}
+
+.like-beauty {
+    text-align: center;
+}
+
+.like-beauty h2 {
+    font-weight: 300;
+    font-size: x-large;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.like-beauty p {
+    font-size: small;
+    margin: 12px 0px;
+}
+
+.btn-stuct button {
+    border: none;
+    cursor: pointer;
+    padding: 14px 28px;
+    margin: 12px 0px;
+}
+
+.orange button {
+    background-color: rgba(255, 179, 80, 0.767);
+}
+
+.orange button:hover {
+    background-color: rgb(255, 174, 24);
+}
+
 
 /*=================================
   Header styling ends here
