@@ -345,6 +345,10 @@ nav li:hover {
     background-color: rgb(255, 174, 24);
 }
 
+.bg-wheat {
+    background-color: wheat;
+}
+
 
 /*=================================
   Header styling ends here
@@ -408,6 +412,11 @@ nav li:hover {
     margin: 32px 0px;
 }
 
+
+/*=================================
+  main styling ends here
+=================================*/
+
 .row-img {
     display: flex;
     justify-content: center;
@@ -420,6 +429,15 @@ nav li:hover {
 
 /*=================================
   main styling ends here
+
+
+/*=================================
+  footer styling starts here
+=================================*/
+
+
+/*=================================
+  footer styling starts here
 =================================*/
 
 
