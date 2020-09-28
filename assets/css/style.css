@@ -230,6 +230,7 @@ li {
 .inline p,
 .float-right {
     display: inline-block;
+    margin: 5px 0px;
 }
 
 .float-right {
@@ -238,11 +239,21 @@ li {
 
 .float-right li {
     margin-right: 10px;
+    padding: 5px;
 }
 
 .float-right li:hover {
     background-color: rgb(255, 174, 24);
     color: black;
+}
+
+.mothers-day {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.mySlides img {
+    margin: 10px 0px;
 }
 
 .border-down {
@@ -266,6 +277,12 @@ li {
 
 .serach-box {
     float: right;
+    position: relative;
+}
+
+.serach-box button {
+    position: absolute;
+    margin-left: -29px;
 }
 
 .serach-box form {
@@ -337,6 +354,68 @@ nav li:hover {
 /*=================================
   main styling starts here
 =================================*/
+
+.monthly-box,
+.commitment,
+.fav-shop,
+.featured,
+.saying {
+    text-align: center;
+}
+
+.monthly-box,
+.commitment,
+.fav-shop,
+.featured {
+    border-bottom: solid;
+    border-color: yellow;
+}
+
+.monthly-box h2 {
+    font-size: x-large;
+    margin: 32px 0px;
+}
+
+.monthly-box p {
+    font-size: small;
+    margin: 12px 0px;
+}
+
+.commitment p {
+    font-size: small;
+    margin: 12px 0px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+}
+
+.item1 {
+    margin: 12px 10px;
+}
+
+.item1 figure figcaption {
+    margin-top: 10px;
+    font-size: medium;
+}
+
+.commitment,
+.fav-shop,
+.featured,
+.saying h2 {
+    font-size: x-large;
+    margin: 32px 0px;
+}
+
+.row-img {
+    display: flex;
+    justify-content: center;
+}
+
+.row-img figure {
+    padding: 10px;
+}
 
 
 /*=================================
