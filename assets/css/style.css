@@ -223,6 +223,10 @@ li {
   Header styling starts here
 =================================*/
 
+* {
+    color: gray;
+}
+
 .bg-wheat {
     background-color: wheat;
 }
@@ -230,7 +234,12 @@ li {
 .inline p,
 .float-right {
     display: inline-block;
+    font-size: small;
+}
+
+.inline p {
     margin: 5px 0px;
+    color: gray;
 }
 
 .float-right {
@@ -294,6 +303,11 @@ li {
 
 .serach-box form input {
     padding: 5px;
+    border-radius: 50px;
+}
+
+.serach-box span {
+    cursor: pointer;
 }
 
 nav ul {
@@ -343,12 +357,19 @@ nav li:hover {
     margin: 12px 0px;
 }
 
+.btn-stuct button:hover {
+    background-color: rgba(255, 179, 80, 0.767);
+    color: white;
+}
+
 .orange button {
     background-color: rgba(255, 179, 80, 0.767);
+    color: white;
 }
 
 .orange button:hover {
     background-color: rgb(255, 174, 24);
+    color: black;
 }
 
 .bg-wheat {
@@ -407,7 +428,7 @@ nav li:hover {
 
 .item1 figure figcaption {
     margin-top: 10px;
-    font-size: medium;
+    font-size: large;
 }
 
 .items-saying {
@@ -430,6 +451,10 @@ nav li:hover {
 
 .row-img figure {
     padding: 10px;
+}
+
+* a {
+    color: rgb(93, 92, 92);
 }
 
 
@@ -598,12 +623,13 @@ Icons
     /* font-size: large; */
     content: "\f07a";
     margin-left: 10px;
+    color: rgb(93, 92, 92);
 }
 
 .arrow-down::before {
     font-family: "Font Awesome 5 free";
     font-weight: 900;
-    font-size: x-large;
+    /* font-size: x-large; */
     content: "\f078";
     margin: -10px 5px 5px;
 }
