@@ -272,7 +272,6 @@ li {
 .inline nav,
 .serach-box {
     float: left;
-    width: 35%;
 }
 
 .serach-box {
@@ -282,12 +281,19 @@ li {
 
 .serach-box button {
     position: absolute;
-    margin-left: -29px;
+    margin-left: -31px;
+    margin-top: 6px;
+    border: none;
+    background: transparent;
 }
 
 .serach-box form {
     margin-top: 20px;
     float: right;
+}
+
+.serach-box form input {
+    padding: 5px;
 }
 
 nav ul {
@@ -404,6 +410,11 @@ nav li:hover {
     font-size: medium;
 }
 
+.items-saying {
+    display: flex;
+    justify-content: space-between;
+}
+
 .commitment,
 .fav-shop,
 .featured,
@@ -438,7 +449,8 @@ footer {
 .footer-1 h2 {
     margin: 20px 0px;
     display: block;
-    font-size: x-large;
+    font-size: xx-large;
+    color: rgb(93, 92, 92);
 }
 
 .col-2:first-child {
@@ -470,9 +482,11 @@ footer {
 .col-2 h3 {
     font-size: large;
     margin-top: -20px;
+    color: rgb(93, 92, 92);
 }
 
 .col-2 h3 {
+    font-size: x-large;
     margin: 24px 0px;
 }
 
@@ -513,8 +527,44 @@ footer {
 }
 
 .footer-2 li {
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
+
+.footer-2 li a {
+    color: rgb(93, 92, 92);
+}
+
+.footer-2 li {
+    color: rgb(93, 92, 92);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.row li a {
+    color: rgb(93, 92, 92);
+}
+
+.col-2-app ul li {
+    display: inline-block;
+}
+
+.col-2-app ul {
+    margin-top: -14px;
+}
+
+
+/*=================================
+  footer styling ends here
+=================================*/
+
+
+/* ==========
+Icons
+============== */
 
 .icon::before {
     display: inline-block;
@@ -527,6 +577,7 @@ footer {
 .apple::before {
     font-family: "Font Awesome 5 Brands";
     font-weight: 900;
+    color: rgb(93, 92, 92);
     font-size: x-large;
     content: "\f179";
     margin-right: 10px;
@@ -535,6 +586,7 @@ footer {
 .android::before {
     font-family: "Font Awesome 5 Brands";
     font-weight: 900;
+    color: rgb(93, 92, 92);
     font-size: x-large;
     content: "\f17b";
     margin-right: 10px;
@@ -543,7 +595,7 @@ footer {
 .cart::before {
     font-family: "Font Awesome 5 free";
     font-weight: 900;
-    font-size: x-large;
+    /* font-size: large; */
     content: "\f07a";
     margin-left: 10px;
 }
@@ -564,10 +616,23 @@ footer {
     margin: 4px 5px 5px;
 }
 
+.g-star::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    color: gold;
+    font-size: large;
+    content: "\f005";
+    margin: 4px 5px 5px;
+}
 
-/*=================================
-  footer styling ends here
-=================================*/
+.flag-ir::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    color: rgb(93, 92, 92);
+    font-size: large;
+    content: "\f024";
+    margin: 4px 5px 5px;
+}
 
 
 /*media query starts*/
