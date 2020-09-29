@@ -412,14 +412,9 @@ nav li:hover {
     margin: 32px 0px;
 }
 
-
-/*=================================
-  main styling ends here
-=================================*/
-
 .row-img {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .row-img figure {
@@ -429,10 +424,6 @@ nav li:hover {
 
 /*=================================
   main styling ends here
-
-
-/*=================================
-  footer styling starts here
 =================================*/
 
 
@@ -440,10 +431,138 @@ nav li:hover {
   footer styling starts here
 =================================*/
 
+footer {
+    padding-top: 10px;
+}
 
-/*=================================
-  footer styling starts here
-=================================*/
+.footer-1 h2 {
+    margin: 20px 0px;
+    display: block;
+    font-size: x-large;
+}
+
+.col-2:first-child {
+    width: 50%;
+}
+
+.footer-1 .col-2 {
+    display: inline-block;
+}
+
+.footer-1 .col-2:nth-child(2) {
+    width: 50%;
+}
+
+.first-col {
+    width: 50%;
+}
+
+.col-2 ul li {
+    display: list-item;
+    margin: 20px 5px;
+    font-size: large;
+}
+
+.col-2 ul {
+    display: inline-block;
+}
+
+.col-2 h3 {
+    font-size: large;
+    margin-top: -20px;
+}
+
+.col-2 h3 {
+    margin: 24px 0px;
+}
+
+.col-2 form {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.col-2 form input {
+    padding: 10px;
+    margin: 4px 0px;
+    width: 92%
+}
+
+.col-2 form button {
+    padding: 10px;
+    margin-top: 4px;
+    position: absolute;
+    right: 0;
+    background-color: darkgray;
+    color: rgb(245, 216, 48);
+    text-shadow: black 1px 1px;
+}
+
+.col-2 form button:hover {
+    background-color: rgb(243, 181, 11);
+    color: white;
+}
+
+.col-2 p {
+    display: inline;
+    background-color: yellow;
+}
+
+.footer-2 ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-2 li {
+    margin: 10px 0px;
+}
+
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.apple::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    font-size: x-large;
+    content: "\f179";
+    margin-right: 10px;
+}
+
+.android::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    font-size: x-large;
+    content: "\f17b";
+    margin-right: 10px;
+}
+
+.cart::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    font-size: x-large;
+    content: "\f07a";
+    margin-left: 10px;
+}
+
+.arrow-down::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    font-size: x-large;
+    content: "\f078";
+    margin: -10px 5px 5px;
+}
+
+.block::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    font-size: large;
+    content: "\f7b1";
+    margin: 4px 5px 5px;
+}
 
 
 /*=================================
