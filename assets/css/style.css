@@ -436,10 +436,22 @@ nav li:hover {
     justify-content: space-between;
 }
 
-.commitment,
-.fav-shop,
-.featured,
+.fav-shop h2 {
+    font-size: x-large;
+    margin: 32px 0px;
+}
+
 .saying h2 {
+    font-size: x-large;
+    margin: 32px 0px;
+}
+
+.featured h2 {
+    font-size: x-large;
+    margin: 32px 0px;
+}
+
+.commitment h2 {
     font-size: x-large;
     margin: 32px 0px;
 }
