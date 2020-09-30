@@ -426,6 +426,14 @@ nav li:hover {
     margin: 12px 10px;
 }
 
+.items-saying .item1 h3:first-child {
+    font-size: x-large;
+}
+
+.items-saying .item1:nth-child(4) {
+    width: 222px;
+}
+
 .item1 figure figcaption {
     margin-top: 10px;
     font-size: large;
@@ -434,6 +442,17 @@ nav li:hover {
 .items-saying {
     display: flex;
     justify-content: space-between;
+}
+
+.items-saying .item1 {
+    text-align: left;
+    position: relative;
+}
+
+.items-saying .item1 ul~span {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .fav-shop h2 {
@@ -670,6 +689,22 @@ Icons
     font-size: large;
     content: "\f024";
     margin: 4px 5px 5px;
+}
+
+.arrow-left::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    color: rgb(93, 92, 92);
+    font-size: xx-large;
+    content: "\f104";
+}
+
+.arrow-right::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    color: rgb(93, 92, 92);
+    font-size: xx-large;
+    content: "\f105";
 }
 
 
